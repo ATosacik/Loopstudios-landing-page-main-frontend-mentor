@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Imports -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+  <!-- Title -->
+  <title>Frontend Mentor | Loopstudios landing page</title>
+  <!-- Css -->
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/tailwind.css">
+  <!-- JavaScript -->
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body class="relative" aria-nav="false">
+  <div class="nav__bg absolute z-[99] w-full h-full bg-[hsl(var(--c-p-2))] sm:hidden flex">
+  </div>
+  <header class="relative w-full text-[hsl(var(--c-p-1))]">
+    <img class="z-[-1] flex md:hidden mx-auto relative" src="./images/mobile/image-hero.jpg" alt="image-hero">
+    <img class="z-[-1] hidden md:flex mx-auto relative" src="./images/desktop/image-hero.jpg" alt="image-hero">
+    <nav class="w-full absolute z-[100] top-0">
+      <div class="grid-container">
+        <div class="flex justify-between items-center gap-8 py-12">
+          <a href="#" class="">
+            <img src="./images/logo.svg" alt="logo">
+          </a>
+          <div class="nav__list items-center gap-8 flex flex-wrap fs-500 sm:justify-center" data-visible="false"
+            aria-controls="open / cloese nav">
+            <a class="custom-underline" href="#">About</a>
+            <a class="custom-underline" href="#">Careers</a>
+            <a class="custom-underline" href="#">Events</a>
+            <a class="custom-underline" href="#">Products</a>
+            <a class="custom-underline" href="#">Support</a>
+          </div>
+          <button class="nav__toggle flex sm:hidden" aria-controls="open / close nav" aria-expanded="false">
+            <img src="./images/icon-hamburger.svg" alt="hamburger">
+          </button>
+        </div>
+      </div>
+    </nav>
+    <div class="hero w-full absolute z-[50] top-[50%] translate-y-[-50%]">
+      <div class="grid-container">
+        <div class="flex items-center justify-center md:justify-start md:max-w-[42rem]">
+          <div class="border-2 border-white border-solid p-8 lg:p-10">
+            <h1 class="uppercase ff-p-2 fs-900 font-light leading-[1.05]">Immersive experiences that deliver
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="w-full">
+    <div class="content1 my-24">
+      <div class="grid-container">
+        <div class="flex flex-col items-center text-center relative gap-8 lg:flex-row">
+          <div>
+            <img class="flex lg:hidden" src="./images/mobile/image-interactive.jpg" alt="image-interactive">
+            <img class="hidden lg:flex" src="./images/desktop/image-interactive.jpg" alt="image-interactive">
+          </div>
+          <div
+            class="space-y-4 lg:absolute lg:bg-[hsl(var(--c-p-1))] max-w-[48%] lg:right-0 lg:bottom-0 lg:pt-24 lg:pl-24 lg:text-left">
+            <h2 class="uppercase ff-p-2 fs-800 font-light">The leader in interactive VR</h2>
+            <p class="text-[hsl(var(--c-p-3))]">Founded in 2011, Loopstudios has been producing world-class virtual
+              reality
+              projects for some of the best companies around the globe. Our award-winning
+              creations have transformed businesses through digital experiences that bind
+              to their brand.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content2 mb-24">
+      <div class="grid-container">
+        <div class="flex flex-col items-center text-center gap-12">
+          <div class="w-full flex justify-between items-center">
+            <h2 class="uppercase text-center ff-p-2 fs-800 font-light mx-auto sm:mx-0">Our creations</h2>
+            <a class="hidden sm:flex uppercase border-2 border-solid border-[hsl(var(--c-p-2))] py-2 px-8 tracking-[5px] bg-[hsl(var(--c-p-1))] hover:bg-[hsl(var(--c-p-2))] hover:text-[hsl(var(--c-p-1))] transition-colors"
+              href="#">
+              See all
+            </a>
+          </div>
+          <div class="grid items-center gap-8 text-left text-[hsl(var(--c-p-1))] md:grid-cols-2 lg:grid-cols-4">
+            <a class="creation-card relative" href="#">
+              <img class="flex md:hidden" src="./images/mobile/image-deep-earth.jpg" alt="image-deep-earth">
+              <img class="hidden md:flex" src="./images/desktop/image-deep-earth.jpg" alt="image-deep-earth">
+              <p class="uppercase absolute bottom-6 left-6 font-light ff-p-2 fs-700 max-w-[9ch]  leading-[1.1]">Deep
+                earth</p>
+            </a>
+            <a class="creation-card relative" href="#">
+              <img class="flex md:hidden" src="./images/mobile/image-night-arcade.jpg" alt="image-night-arcade">
+              <img class="hidden md:flex" src="./images/desktop/image-night-arcade.jpg" alt="image-night-arcade">
+              <p class="uppercase absolute bottom-6 left-6 font-light ff-p-2 fs-700 max-w-[9ch]  leading-[1.1]">Night
+                arcade</p>
+            </a>
+            <a class="creation-card relative" href="#">
+              <img class="flex md:hidden" src="./images/mobile/image-soccer-team.jpg" alt="image-soccer-team">
+              <img class="hidden md:flex" src="./images/desktop/image-soccer-team.jpg" alt="image-soccer-team">
+              <p class="uppercase absolute bottom-6 left-6 font-light ff-p-2 fs-700 max-w-[9ch]  leading-[1.1]">Soccer
+                team VR</p>
+            </a>
+            <a class="creation-card relative" href="#">
+              <img class="flex md:hidden" src="./images/mobile/image-grid.jpg" alt="image-grid">
+              <img class="hidden md:flex" src="./images/desktop/image-grid.jpg" alt="image-grid">
+              <p class="uppercase absolute bottom-6 left-6 font-light ff-p-2 fs-700 max-w-[9ch] leading-[1.1]">The grid
+              </p>
+            </a>
+            <a class="creation-card relative" href="#">
+              <img class="flex md:hidden" src="./images/mobile/image-from-above.jpg" alt="image-from-above">
+              <img class="hidden md:flex" src="./images/desktop/image-from-above.jpg" alt="image-from-above">
+              <p class="uppercase absolute bottom-6 left-6 font-light ff-p-2 fs-700 max-w-[9ch]  leading-[1.1]">From up
+                above VR</p>
+            </a>
+            <a class="creation-card relative" href="#">
+              <img class="flex md:hidden" src="./images/mobile/image-pocket-borealis.jpg" alt="image-pocket-borealis">
+              <img class="hidden md:flex" src="./images/desktop/image-pocket-borealis.jpg" alt="image-pocket-borealis">
+              <p class="uppercase absolute bottom-6 left-6 font-light ff-p-2 fs-700 max-w-[9ch]  leading-[1.1]">Pocket
+                borealis</p>
+            </a>
+            <a class="creation-card relative" href="#">
+              <img class="flex md:hidden" src="./images/mobile/image-curiosity.jpg" alt="image-curiosity">
+              <img class="hidden md:flex" src="./images/desktop/image-curiosity.jpg" alt="image-curiosity">
+              <p class="uppercase absolute bottom-6 left-6 font-light ff-p-2 fs-700 max-w-[9ch]  leading-[1.1]">The
+                curiosity</p>
+            </a>
+            <a class="creation-card relative" href="#">
+              <img class="flex md:hidden" src="./images/mobile/image-fisheye.jpg" alt="image-fisheye">
+              <img class="hidden md:flex" src="./images/desktop/image-fisheye.jpg" alt="image-fisheye">
+              <p class="uppercase absolute bottom-6 left-6 font-light ff-p-2 fs-700 max-w-[9ch]  leading-[1.1]">Make it
+                fisheye</p>
+            </a>
+          </div>
+          <a class="flex sm:hidden uppercase border-2 border-solid border-[hsl(var(--c-p-2))] py-2 px-8 tracking-[5px] bg-[hsl(var(--c-p-1))] hover:bg-[hsl(var(--c-p-2))] hover:text-[hsl(var(--c-p-1))] transition-colors"
+            href="#">
+            See all
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="mt-auto w-full bg-[hsl(var(--c-p-2))] text-[hsl(var(--c-p-1))]">
+    <div class="grid-container">
+      <div class="flex flex-col items-center text-center gap-10 my-16 md:justify-between md:flex-row">
+        <div class="space-y-8">
+          <a href="#">
+            <img src="./images/logo.svg" alt="logo">
+          </a>
+          <div class="flex items-center flex-col gap-6 fs-500 md:flex-row">
+            <a class="custom-underline" href="#">About</a>
+            <a class="custom-underline" href="#">Careers</a>
+            <a class="custom-underline" href="#">Events</a>
+            <a class="custom-underline" href="#">Products</a>
+            <a class="custom-underline" href="#">Support</a>
+          </div>
+        </div>
+        <div class="flex flex-col items-center gap-8 md:items-end">
+          <div class="flex items-center gap-4">
+            <a class="social-media-icon custom-underline" href="#">
+              <img src="./images/icon-facebook.svg" alt="social-media-icon">
+            </a>
+            <a class="social-media-icon custom-underline" href="#">
+              <img src="./images/icon-twitter.svg" alt="social-media-icon">
+            </a>
+            <a class="social-media-icon custom-underline" href="#">
+              <img src="./images/icon-pinterest.svg" alt="social-media-icon">
+            </a>
+            <a class="social-media-icon custom-underline" href="#">
+              <img src="./images/icon-instagram.svg" alt="social-media-icon">
+            </a>
+          </div>
+          <a class="text-[hsl(var(--c-p-3))]" href="#">© 2021 Loopstudios. All rights reserved.</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
