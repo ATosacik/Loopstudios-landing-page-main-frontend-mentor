@@ -20,6 +20,10 @@ Users should be able to:
 
 ### Screenshot
 
+![Screenshot 2024-03-14 at 10-56-09 Frontend Mentor Loopstudios landing page](https://github.com/ATosacik/Loopstudios-landing-page-main-frontend-mentor/assets/111382391/5bfb9cfc-d249-4064-b05d-c183f99304d2)
+![Screenshot 2024-03-14 at 10-58-10 Frontend Mentor Loopstudios landing page](https://github.com/ATosacik/Loopstudios-landing-page-main-frontend-mentor/assets/111382391/29bb94b3-e15b-486c-97c9-53866c9bf517)
+![Screenshot 2024-03-14 at 10-58-22 Frontend Mentor Loopstudios landing page](https://github.com/ATosacik/Loopstudios-landing-page-main-frontend-mentor/assets/111382391/cfe016e1-67e8-4086-b44a-2365dde6506d)
+
 ## My process
 
 ### Built with
